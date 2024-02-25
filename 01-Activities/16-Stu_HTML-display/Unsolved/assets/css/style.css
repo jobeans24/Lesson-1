@@ -8,23 +8,23 @@ h2 {
 }
 
 ul {
-  display: inline;
   text-align: right;
   color: #ffffff;
 }
 
 /* List items in navigation bar */
 li {
-  /* TODO: Add your code here */
-  
+  /* sets display to inline and aligns content to the left */
+  display: inline;
   list-style-type: none;
   font-size: 40px;
+  align-content: left;
 }
 
 /* Boxes */
 img {
-  /* TODO: Add your code here */
-  display: inline;
+  /* display was changed to block */
+  display: block;
   margin: 0 auto;
 }
 
@@ -42,6 +42,6 @@ img {
 
 /* Box 3 */
 #image-3 {
-  /* TODO: Add your code here */
-  display: none;
+  /* changing the display to block */
+  display: block;
 }
