@@ -87,9 +87,11 @@ label {
 input, 
 textarea {
   box-sizing: border-box;
-  width: 300px;
+  width: 250px;
   border: 1px solid #4F4846;
 }
+
+
 
 textarea {
   vertical-align: top;
@@ -110,4 +112,34 @@ button {
 
 .text-right {
   text-align: right;
+}
+
+/* created a container to allow for a poll*/
+.container {
+  display: block;
+  position: relative;
+  padding: left 24px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  justify-content: left;
+}
+
+/* created a region to allow for radio preferred region selector*/
+.region {
+  display: block;
+  position: relative;
+  padding: left 24px;
+  margin-bottom: 12px;
+  text-align: left;
+  font-size: large;
+}
+.radio  {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-top: 5px;
+  user-select: none;
+  justify-content: left;
 }
